@@ -1,0 +1,26 @@
+{
+  "name": "edo/seperated-logic",
+  "authors": [
+    {
+      "name": "Edo",
+      "email": "muhammadridho5654@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Core\\": "Core/",
+      "Http\\": "Http/"
+    }
+  },
+  "scripts": {
+    "test": "vendor/bin/pest"
+  },
+  "require-dev": {
+    "pestphp/pest": "^3.4"
+  },
+  "config": {
+    "allow-plugins": {
+      "pestphp/pest-plugin": true
+    }
+  }
+}
